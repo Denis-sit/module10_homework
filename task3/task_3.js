@@ -1,6 +1,3 @@
-// При проверке работоспособности подключить скрипт в index.html
-document.querySelector('.container').style.display = 'none';
-
 const chatMessage = document.querySelector('.chat__message'),
       btn = document.querySelector('.chat__button');
       parentContainerChat = document.querySelector('.chat__container_message'),

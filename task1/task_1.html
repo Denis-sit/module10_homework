@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -19,16 +18,26 @@
             </div>
         </button>
     </div>
-    <div class="chat">
-        <div class="chat__container">
-            <textarea rows="2" placeholder="Введите сообщение" class="chat__message" type="text"></textarea>
-        </div>
-        <div class="chat__container_message"></div>
-        <div class="chat__container">
-            <button class="chat__button">Отправить</button>
-            <button id="geolocation"  class="chat__button">Гео-локация</button>
-        </div>
-    </div>
-    <script src="task_3.js"></script>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        button{
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            border: none;
+            border-radius: 16px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .hide{
+            display: none;
+        }
+    </style>
+    <script src="task_1.js"></script>
 </body>
 </html>

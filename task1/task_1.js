@@ -1,4 +1,3 @@
-// При проверке работоспособности подключить скрипт в index.html
 const button = document.querySelector('button'),
       svgImage = document.querySelector('.svgImage'),
       svgArr = svgImage.querySelectorAll('svg');
@@ -6,6 +5,6 @@ const button = document.querySelector('button'),
  button.addEventListener('click', (e) =>{
     e.preventDefault();
     svgArr.forEach(item =>{
-        item.classList.toggle('hide')
+        item.classList.toggle('hide');
     });
  });     
